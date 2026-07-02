@@ -8,6 +8,8 @@ A hands-on journey through the core concepts of **Agentic AI** — the skills an
 ---
 
 ## 🧭 How this repo is organized
+
+```
 agentic-ai-learning-lab/
 ├── README.md                  ← you are here (the index)
 ├── 01-prompt-engineering/
@@ -26,6 +28,7 @@ agentic-ai-learning-lab/
 ├── 14-guardrails-safety/
 ├── 15-observability-evaluation/
 └── 16-workflow-orchestration/
+```
 
 Each sub-folder will contain its own `README.md` with:
 - **What it is** (short explanation)
