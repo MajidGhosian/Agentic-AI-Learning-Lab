@@ -45,7 +45,7 @@ Each sub-folder will contain its own `README.md` with:
 
 | # | Concept | What it covers | Status | Project |
 |---|---------|----------------|--------|---------|
-| 01 | **Prompt Engineering** | Zero/few-shot prompting, system prompts, chain-of-thought | ⬜ Not started | [`/01-prompt-engineering`](./01-prompt-engineering) |
+| 01 | **Prompt Engineering** | Zero/few-shot prompting, system prompts, chain-of-thought | ✅ Done | [`/01-prompt-engineering`](./01-prompt-engineering) |
 | 02 | **Function / Tool Calling** | Letting an LLM call external functions/APIs with structured outputs | ⬜ Not started | [`/02-function-calling`](./02-function-calling) |
 | 03 | **ReAct Pattern** | Reasoning + Acting loop (thought → action → observation) | ⬜ Not started | [`/03-react-agent`](./03-react-agent) |
 | 04 | **Agent Memory** | Short-term (context) vs long-term (persistent) memory | ⬜ Not started | [`/04-memory`](./04-memory) |
@@ -95,14 +95,6 @@ Each sub-folder will contain its own `README.md` with:
 ## 🎯 Why these specific concepts
 
 These are pulled from patterns that repeatedly show up in **agentic AI / AI engineer job postings**: tool use, RAG, multi-agent orchestration, memory, planning, guardrails, and observability. The idea is that after finishing this roadmap, I'll have a small working example for nearly every buzzword that shows up in that kind of posting — and can point to real code instead of just saying "I know about agents."
-
----
-
-## 📈 Progress Log
-
-| Date | Update |
-|------|--------|
-| _(add entries as projects are completed)_ | |
 
 ---
 
