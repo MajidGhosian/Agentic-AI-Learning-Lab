@@ -1,0 +1,6 @@
+# No third-party dependencies required.
+# planner.py uses only the Python standard library (dataclasses, enum, uuid, urllib.request).
+#
+# Optional, only if you want real LLM-driven decomposition instead of the
+# offline RuleBasedDecomposer:
+#   export ANTHROPIC_API_KEY=sk-...
