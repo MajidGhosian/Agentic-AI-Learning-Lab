@@ -49,7 +49,7 @@ Each sub-folder will contain its own `README.md` with:
 | 02 | **Function / Tool Calling** | Letting an LLM call external functions/APIs with structured outputs | 🟨 In progress | [`/02-function-calling`](./02-function-calling) |
 | 03 | **ReAct Pattern** | Reasoning + Acting loop (thought → action → observation) | 🟨 In progress | [`/03-react-agent`](./03-react-agent) |
 | 04 | **Agent Memory** | Short-term (context) vs long-term (persistent) memory | 🟨 In progress | [`/04-memory`](./04-memory) |
-| 05 | **Planning & Task Decomposition** | Breaking a goal into sub-tasks, task queues | ⬜ Not started | [`/05-planning-task-decomposition`](./05-planning-task-decomposition) |
+| 05 | **Planning & Task Decomposition** | Breaking a goal into sub-tasks, task queues | 🟨 In progress | [`/05-planning-task-decomposition`](./05-planning-task-decomposition) |
 
 ### Knowledge & Retrieval
 
