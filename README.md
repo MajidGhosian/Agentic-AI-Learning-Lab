@@ -55,7 +55,7 @@ Each sub-folder will contain its own `README.md` with:
 
 | # | Concept | What it covers | Status | Project |
 |---|---------|----------------|--------|---------|
-| 06 | **RAG (Retrieval-Augmented Generation)** | Grounding LLM answers in external documents | ⬜ Not started | [`/06-rag`](./06-rag) |
+| 06 | **RAG (Retrieval-Augmented Generation)** | Grounding LLM answers in external documents | 🟨 In progress | [`/06-rag`](./06-rag) |
 | 07 | **Agentic RAG** | Agent decides *when/what/how* to retrieve, not just a fixed pipeline | ⬜ Not started | [`/07-agentic-rag`](./07-agentic-rag) |
 | 11 | **Vector Databases & Embeddings** | Semantic search, chunking strategies, similarity metrics | ⬜ Not started | [`/11-vector-databases`](./11-vector-databases) |
 
