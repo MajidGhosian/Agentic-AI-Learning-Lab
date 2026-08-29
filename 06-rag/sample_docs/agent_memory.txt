@@ -1,0 +1,22 @@
+Agent Memory
+
+Agentic systems typically distinguish between short-term memory and long-term
+memory. Short-term memory is usually just the model's context window: the
+running transcript of the current conversation or task, including recent tool
+calls and their results. It disappears once the session ends.
+
+Long-term memory is information that persists across sessions. It is usually
+stored outside the model itself, in a database, a vector store, or a simple
+key-value store, and is retrieved back into the context window when relevant.
+Common patterns include storing user preferences, past decisions, summaries of
+prior conversations, or facts learned during a task.
+
+A key design question for agent memory is what to store and when to write to
+it. Storing every message verbatim is simple but grows unbounded and expensive
+to search. Many systems instead periodically summarize the conversation into a
+compact memory entry, or extract specific facts (like "the user prefers metric
+units") and store only those.
+
+Retrieval-Augmented Generation is one of the main techniques used to bring
+long-term memory back into context: relevant memory entries are embedded,
+stored in a vector index, and retrieved by similarity to the current query.

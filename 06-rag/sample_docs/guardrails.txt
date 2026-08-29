@@ -1,0 +1,25 @@
+Guardrails and Safety for Agents
+
+Guardrails are checks placed around an LLM agent to catch problems before they
+reach a user or before the agent takes a harmful action. They generally fall
+into two categories: input guardrails and output guardrails.
+
+Input guardrails validate or filter what goes into the model. Examples include
+detecting prompt injection attempts hidden in retrieved documents, checking
+that a user request falls within the agent's intended scope, or stripping
+sensitive data before it is sent to a third-party API.
+
+Output guardrails validate what comes out of the model before it is acted on.
+Examples include checking that a generated SQL query only touches allowed
+tables, verifying that a tool call's arguments match an expected schema, or
+running a lightweight classifier to catch toxic or unsafe text before it is
+shown to a user.
+
+For agents that can take real-world actions (sending emails, making purchases,
+modifying files), a common pattern is human-in-the-loop confirmation: the agent
+proposes an action and a person must approve it before it executes. This is
+especially important for actions that are hard to undo.
+
+Guardrails are not a substitute for good system design, but they are a
+practical last line of defense, especially as agents are given more autonomy
+and more powerful tools.

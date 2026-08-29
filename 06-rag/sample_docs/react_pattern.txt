@@ -1,0 +1,23 @@
+The ReAct Pattern
+
+ReAct stands for "Reasoning and Acting." It is a prompting pattern for LLM agents
+where the model alternates between three phases in a loop: Thought, Action, and
+Observation.
+
+In the Thought phase, the model reasons in natural language about what it should
+do next given the current state of the task. In the Action phase, the model
+chooses a tool to call and produces structured arguments for it. In the
+Observation phase, the result of that tool call is fed back into the model's
+context so it can decide on the next Thought.
+
+This loop continues until the model decides it has enough information to
+produce a final answer. ReAct is popular because it makes an agent's reasoning
+visible and auditable step by step, which helps with debugging and building
+trust in autonomous systems. It also tends to reduce hallucination compared to
+asking a model to answer directly, because the model is forced to ground each
+step in a real tool observation rather than guessing.
+
+A common failure mode of ReAct agents is looping: the agent keeps calling the
+same tool with slightly different arguments without making progress. Adding a
+maximum step count, a scratchpad summary, or a reflection step can help an
+agent notice when it is stuck.

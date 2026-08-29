@@ -1,0 +1,6 @@
+scikit-learn>=1.3
+numpy>=1.24
+anthropic>=0.40
+
+# Optional: only needed if you switch to DenseRetriever in rag/retriever.py
+# sentence-transformers>=2.2
