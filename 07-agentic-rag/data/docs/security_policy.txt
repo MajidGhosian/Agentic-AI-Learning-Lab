@@ -1,0 +1,31 @@
+ACME CORP — INFORMATION SECURITY POLICY
+Last updated: April 2026
+
+1. Device Requirements
+All devices used to access company systems, whether company-issued or
+personal (BYOD), must have full-disk encryption enabled, an up-to-date
+operating system, and endpoint protection software installed by IT.
+
+2. VPN Usage
+Company VPN is mandatory for accessing internal tools, source code
+repositories, and customer data from any network outside the office,
+including home networks used for remote work.
+
+3. Password and MFA
+All employee accounts require multi-factor authentication (MFA). Passwords
+must be at least 14 characters and rotated every 180 days.
+
+4. Data Classification
+Data is classified as Public, Internal, Confidential, or Restricted.
+Confidential and Restricted data may not be stored on personal devices or
+in unsanctioned cloud storage (e.g., personal Google Drive or Dropbox).
+
+5. Incident Reporting
+Any suspected security incident, including lost devices or phishing
+attempts, must be reported to security@acme.example within 1 hour of
+discovery.
+
+6. Travel Security
+Employees traveling internationally with company devices should enable
+travel mode on MFA tokens and avoid connecting to untrusted public Wi-Fi
+without the VPN active.

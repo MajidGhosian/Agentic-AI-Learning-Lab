@@ -1,0 +1,27 @@
+ACME CORP — REMOTE WORK POLICY
+Last updated: March 2026
+
+1. Eligibility
+All full-time employees who have completed their 90-day probationary period are
+eligible to work remotely up to 3 days per week. Managers may approve fully
+remote arrangements on a case-by-case basis, subject to VP approval.
+
+2. Equipment
+Acme provides a one-time home office stipend of $500 for remote employees to
+purchase a monitor, chair, or desk. Laptops and standard peripherals are
+provided by IT and remain company property.
+
+3. Core Hours
+Remote employees must be reachable on Slack and email between 10:00 AM and
+3:00 PM in their local time zone, regardless of which days they work remotely.
+
+4. Security Requirements
+Remote work requires the use of the company VPN for all access to internal
+systems, full-disk encryption on any device used for work, and a locking
+screen after 5 minutes of inactivity. See the Security Policy document for
+full details.
+
+5. International Remote Work
+Employees wishing to work remotely from outside their home country for more
+than 14 consecutive days must file a request with HR at least 30 days in
+advance, due to tax and legal compliance requirements.
